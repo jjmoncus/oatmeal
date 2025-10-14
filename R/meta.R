@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @importFrom purrr map_chr map
+#' @importFrom tibble tibble
 meta <- function(data) {
   # Extract variable information
   tibble(

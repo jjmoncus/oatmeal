@@ -40,6 +40,8 @@ find_level <- function(data, pattern) {
 #' Make educated guesses for which variables pertain to the same battery
 #'
 #' @export
+#'
+#' @importFrom purrr list_flatten imap
 find_batts <- function(data) {
 
   meta(data)$variable_label %>%
@@ -71,7 +73,19 @@ find_batts <- function(data) {
     }) %>%
     list_flatten() %>%
     keep(~length(.x) > 1)
+}
 
 
+#' Find variables which could be the unique ID
+#'
+#' @export
+find_ids <- function(data) {
+
+  data %>%
+    keep(function(x) {
+
+      length(unique(x)) == nrow(data)
+    }) %>%
+    map(~attr(.x, "label"))
 }
 
