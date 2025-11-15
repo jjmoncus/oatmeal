@@ -4,12 +4,19 @@
 \name{oatmeal-package}
 \alias{oatmeal}
 \alias{oatmeal-package}
-\title{oatmeal: What the Package Does (Title Case)}
+\title{oatmeal: Utilities for Working with Survey Data}
 \description{
-More about what it does (maybe more than one line). Continuation lines should be indented.
+Low-level functions for helping with commong survey data wrangling tasks
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://jjmoncus.github.io/oatmeal/}
+}
+
 }
 \author{
-\strong{Maintainer}: Jane Doe \email{jane@example.com}
+\strong{Maintainer}: J.J. Moncus \email{jjmoncus706@gmail.com}
 
 }
 \keyword{internal}

@@ -9,7 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Low-level functions for helping with commong survey data wrangling tasks
+Description: Low-level functions for helping with commong survey data wrangling tasks.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -20,5 +20,6 @@ Imports:
     rlang,
     purrr,
     stringr,
-    magrittr
+    magrittr,
+    tibble
 URL: https://jjmoncus.github.io/oatmeal/
