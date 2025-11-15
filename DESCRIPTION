@@ -1,17 +1,16 @@
 Package: oatmeal
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Utilities for Working with Survey Data
+Version: 0.0.0.9000
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "J.J.", "Moncus",
+      email = "jjmoncus706@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Low-level functions for helping with commong survey data wrangling tasks
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
